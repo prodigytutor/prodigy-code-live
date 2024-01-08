@@ -1,0 +1,30 @@
+{
+  "name": "prodigy-code-live",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@codemirror/lang-javascript": "^6.2.1",
+    "@liveblocks/client": "^1.9.2",
+    "@liveblocks/node": "^1.9.2",
+    "@liveblocks/react": "^1.9.2",
+    "@liveblocks/yjs": "^1.9.2",
+    "codemirror": "^6.0.1",
+    "next": "^14.0.4",
+    "y-codemirror.next": "^0.3.2",
+    "yjs": "^13.6.10"
+  },
+  "devDependencies": {
+    "@types/node": "20.10.6",
+    "@types/react": "18.2.47",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.1",
+    "typescript": "5.3.3"
+  }
+}
